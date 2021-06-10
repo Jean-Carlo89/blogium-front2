@@ -21,7 +21,7 @@ export default function AddComment({ postId }) {
       console.log(response.data)
     })
     .catch((responseError)=>{
-      console.log('Erro ao enviar comentario')
+      console.log('Erro ao enviar comentario' )
       console.log(responseError)
     })
 
